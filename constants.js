@@ -1,4 +1,11 @@
-const host = 'localhost';
-const port = 50541;
+const hostPort = {
+  host: 'localhost',
+  port: 50541
+}
 
-module.exports = { host, port };
+const cmdLineName = process.argv.slice(2);
+
+module.exports = { 
+  hostPort,
+  cmdLineName
+};

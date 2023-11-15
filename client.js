@@ -1,16 +1,16 @@
 const net = require("net");
-const hostPort = require('./constants.js');
+const constants = require('./constants.js');
 
 
 const connect = () => {
   const conn = net.createConnection(
-    hostPort
+    constants.hostPort
   );
   
   conn.setEncoding("utf8");
   conn.on('connect', () =>{
     console.log("Successfully connected to game server.");
-    conn.write("Name: FLXX");
+    conn.write(`Name: ${constants.cmdLineName}`);
   });
 
   conn.on("data", (data) => {
