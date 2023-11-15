@@ -26,6 +26,6 @@ const send = (msg) => {
   if (msg === 'v') connection.write("Say: pog");
   if (msg === 'x') connection.write('Say: lol');
   if (msg === 'r') connection.write("Say: (o′┏▽┓｀o)");
-}
+};
 
 module.exports = { setupInput };
