@@ -16,8 +16,9 @@ This is simply a multiplayer take on the genre.
 
 ## Final Product
 
-!["screenshot description"](#)
-!["screenshot description"](#)
+!["snake gameplay"](https://i.ibb.co/YbNxdZf/Screenshot-2023-11-18-085602.png)
+!["server boot command"](https://i.ibb.co/WKbgmQ6/Screenshot-2023-11-18-085656.png)
+!["client boot command"](https://i.ibb.co/JCwGK6C/Screenshot-2023-11-18-085721.png)
 
 
 ## Getting Started
