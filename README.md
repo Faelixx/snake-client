@@ -17,7 +17,11 @@ This is simply a multiplayer take on the genre.
 ## Final Product
 
 !["snake gameplay"](https://i.ibb.co/YbNxdZf/Screenshot-2023-11-18-085602.png)
+
+### Run server before running client
 !["server boot command"](https://i.ibb.co/WKbgmQ6/Screenshot-2023-11-18-085656.png)
+
+### Run client to play!
 !["client boot command"](https://i.ibb.co/JCwGK6C/Screenshot-2023-11-18-085721.png)
 
 
