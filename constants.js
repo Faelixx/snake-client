@@ -5,16 +5,21 @@ const hostPort = {
 
 const cmdLineName = process.argv.slice(2);
 
-const keyCommands = {
+const keyMovements = {
   'w': "Move: up",
   'a': "Move: left",
   's': "Move: down",
-  'd': "Move: right",
+  'd': "Move: right"
+};
+// Seperate key command objects to avoid spammming.
+
+const keyChat = {
   'f': "Say: 2 ez cuz",
   'v': "Say: pog",
   'x': 'Say: lol',
   'r': "Say: (o′┏▽┓｀o)"
 };
+
 
   
 
@@ -23,5 +28,6 @@ const keyCommands = {
 module.exports = { 
   hostPort,
   cmdLineName,
-  keyCommands
+  keyMovements,
+  keyChat,
 };
